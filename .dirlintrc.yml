@@ -1,0 +1,23 @@
+rules:
+  /:
+    /src:
+      /**.ts:
+        - file
+        - PascalCaseWithABB
+      /index.ts:
+        - file
+      /code:
+        - dir
+      /*:
+        - dir
+        - camelCaseWithABB
+
+# 例外，支持中间用*匹配任意字符，**匹配任意路径
+exceptions:
+  - /bin
+  - /node_modules
+  - /.editorconfig
+  - /package-lock.json
+  - /package.json
+  - /tsconfig.json
+  - /.dirlintrc.yml
