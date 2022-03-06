@@ -1,6 +1,6 @@
 {
   "name": "dirlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "directory lint",
   "bin": {
     "dirlint": "./bin/index.js"
