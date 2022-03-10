@@ -24,7 +24,7 @@ const ConfigFileNames = [
 const noStarPathReg = /^\/([\w\.\-]+\/?)*$/;
 const hasStarPathReg = /^\/([\w\.\-\*]+\/?)+$/;
 const ruleKeyReg = /^\/[\w\.\-\*]+$/;
-
+// 内部预留的匹配正则
 const innerRegexpStr: any = {
   PascalCase: '(?:[A-Z][a-z]+)+',
   PascalCaseWithABB: '(?:[A-Z][a-z]*)+',
